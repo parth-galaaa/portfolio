@@ -45,7 +45,7 @@ const projectsData: Project[] = [
 		description: "Welcome to my WEBSITE!",
 		image: "/images/portfolio.jpg",
 		tag: ["All", "Web"],
-		gitUrl: "https://github.com/parth-galaaa/my-portfolio",
+		gitUrl: "https://github.com/parth-galaaa/portfolio",
 	},
 	{
 		id: 5,
