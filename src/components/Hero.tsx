@@ -38,7 +38,10 @@ const HeroSection = () => {
 
 			<motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
 				<div className="col-span-8 place-self-center text-center sm:text-left justify-self-start">
-					<h1 className="text-white mb-4 sm:text-4xl md:text-5xl lg:text-8xl lg:leading-normal  font-extrabold" style={{ lineHeight: '1.1' }}>
+					<h1
+						className="text-3xl sm:text-4xl md:text-5xl lg:text-8xl font-extrabold text-white mb-4"
+						style={{ lineHeight: '1.1' }}
+					>
 						<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-600">
 							Hello, I&apos;m{" "}
 						</span>
@@ -59,6 +62,7 @@ const HeroSection = () => {
 							repeat={Infinity}
 						/>
 					</h1>
+
 					<p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
 						Welcome to my online space, where you&apos;ll discover a fusion of my skills, experiences, and creativity, offering insight into who I am...
 					</p>

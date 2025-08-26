@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState, ReactNode } from "react";
 import Image, { StaticImageData } from "next/image";
 import TabButton from "./ui/tab-button";
-
 import cIcon from "../../public/images/c.svg";
 import javaIcon from "../../public/images/java.svg";
 import pythonIcon from "../../public/images/python.svg";
@@ -110,11 +109,11 @@ const TAB_DATA: TabData[] = [
 							Bachelor of Computer Science Honours (Co-op)
 						</p>
 						<p className="text-md text-gray-300 mb-1 font-medium">
-							Specialization in AI and a Minor in Mathematics
+							Specialization in AI and Minor in Mathematics
 						</p>
 					</div>
 					<div className="text-right">
-						<p className="text-md">Fall 2021 - Winter 2025</p>
+						<p className="text-md">Sep 2021 - Apr 2025</p>
 					</div>
 				</div>
 			</div>
