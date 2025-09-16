@@ -14,7 +14,7 @@ import { HomeIcon } from "@heroicons/react/24/solid";
 
 const navLinks = [
 	{ name: "About", link: "#about" },
-	{ name: "Experiences", link: "#experiences" },
+	{ name: "Experience", link: "#experiences" },
 	{ name: "Projects", link: "#project" },
 	{ name: "Contact", link: "#contact" },
 ];

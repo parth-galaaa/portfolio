@@ -31,7 +31,7 @@ const EmailSection: React.FC = () => {
         <Link href="https://www.linkedin.com/in/gala-parth">
           <Image src={LinkedinIcon} alt="Linkedin Icon" className="w-10 h-10" />
         </Link>
-        <Link href="mailto:parth1868134@gmail.com">
+        <Link href="mailto:parthgautamgala@gmail.com">
           <EmailIcon style={{ color: '#ffffff', width: '40px', height: '40px' }} />
         </Link>
       </div>
