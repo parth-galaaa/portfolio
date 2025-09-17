@@ -157,7 +157,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
 				animationDelay: `${index * 0.1}s`,
 			}}
 		>
-			<div className="relative bg-gray-800 border border-gray-700/50 transition-all duration-500 hover:border-gray-400 hover:shadow-xl hover:-translate-y-2 h-full flex flex-col">
+			<div className="relative bg-gray-800/30 border border-gray-700/50 transition-all duration-500 hover:border-gray-400 hover:shadow-xl hover:-translate-y-2 h-full flex flex-col">
 				{/* Image */}
 				<div className="relative h-64 overflow-hidden">
 					<Image
@@ -221,7 +221,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
 						{project.technologies.map((tech, i) => (
 							<span
 								key={i}
-								className="px-3 py-1 bg-gray-700 text-gray-200 text-xs font-medium border border-gray-700/50 hover:border-gray-400 transition-colors h-fit"
+								className="px-3 py-1 bg-gray-800/30 text-gray-200 text-xs font-medium border border-gray-700/50 hover:border-gray-400 transition-colors h-fit"
 							>
 								{tech}
 							</span>

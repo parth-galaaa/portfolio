@@ -147,7 +147,7 @@ const ExperienceSection = () => {
 										<div
 											onClick={() => toggleExpanded(exp.id)}
 											className="cursor-pointer rounded-lg p-4 transition-all duration-300 
-											bg-gray-800/70 backdrop-blur-sm border border-gray-700/50 
+											bg-gray-800/30 backdrop-blur-sm border border-gray-700/50 
 											hover:bg-gray-700/80 hover:border-blue-500/40 hover:shadow-lg 
 											hover:shadow-blue-500/20 active:scale-[0.98] w-full"
 										>
