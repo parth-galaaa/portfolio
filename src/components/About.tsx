@@ -191,7 +191,7 @@ const AboutSection: React.FC = () => {
 							}`}>
 							<div className="text-gray-300 leading-relaxed space-y-4">
 								<p className="text-lg">
-									Hello! I'm <span className="font-bold text-white relative inline-block">
+									Hello! I&apos;m <span className="font-bold text-white relative inline-block">
 										<span className="bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent animate-pulse">Parth Gala</span>
 										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-400 to-green-400 transform scale-x-0 transition-transform duration-700 group-hover:scale-x-100"></span>
 									</span>, a Full Stack Software Developer and AI enthusiast based in Canada. I recently graduated with an <span className="font-semibold text-white relative group cursor-pointer">
@@ -204,24 +204,24 @@ const AboutSection: React.FC = () => {
 								</p>
 
 								<p className="text-lg">
-									I'm passionate about building <span className="font-semibold relative group cursor-pointer">
+									I&apos;m passionate about building <span className="font-semibold relative group cursor-pointer">
 										<span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent">intelligent, high-performance software</span>
 										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-300 to-cyan-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
-									</span> that solves real-world problems. Over the years, I've developed scalable web applications, designed efficient data pipelines, and implemented AI-powered solutions that optimize workflows and provide actionable insights. During my co-op and internship experiences, my work helped teams <span className="font-semibold relative group cursor-pointer">
+									</span> that solves real-world problems. Over the years, I&apos;ve developed scalable web applications, designed efficient data pipelines, and implemented AI-powered solutions that optimize workflows and provide actionable insights. During my co-op and internship experiences, my work helped teams <span className="font-semibold relative group cursor-pointer">
 										<span className="bg-gradient-to-r from-green-300 to-emerald-300 bg-clip-text text-transparent">increase operational efficiency, reduce manual effort, and improve decision-making through data-driven solutions</span>
 										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-green-300 to-emerald-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 									</span>.
 								</p>
 
 								<p className="text-lg">
-									Beyond building software, I'm driven by <span className="font-semibold relative group cursor-pointer">
+									Beyond building software, I&apos;m driven by <span className="font-semibold relative group cursor-pointer">
 										<span className="bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">curiosity and impact</span>
 										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-purple-300 to-pink-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 									</span>. I enjoy exploring new technologies, solving challenging problems, and experimenting with creative approaches to engineering solutions. I see software development not just as coding, but as crafting systems that empower people, teams, and organizations to achieve more.
 								</p>
 
 								<p className="text-lg">
-									When I'm not working on projects, you'll find me <span className="font-semibold relative group cursor-pointer">
+									When I&apos;m not working on projects, you&apos;ll find me <span className="font-semibold relative group cursor-pointer">
 										<span className="bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">analyzing trends in technology, diving into AI research, or pursuing creative personal projects</span>
 										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-cyan-300 to-blue-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 									</span>. Every project I take on is an opportunity to learn, innovate, and make a meaningful impact.

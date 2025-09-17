@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { Github, Filter } from "lucide-react";
+import Image from "next/image";
 
 // Project type
 interface Project {
@@ -159,11 +160,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
 			<div className="relative bg-gray-800 border border-gray-700/50 transition-all duration-500 hover:border-gray-400 hover:shadow-xl hover:-translate-y-2 h-full flex flex-col">
 				{/* Image */}
 				<div className="relative h-64 overflow-hidden">
-					<img
+					<Image
 						src={project.image}
 						alt={project.title}
-						className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+						fill
+						sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+						className="object-cover transition-transform duration-700 group-hover:scale-110"
 					/>
+
 
 					{/* Overlay */}
 					<div
