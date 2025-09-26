@@ -29,11 +29,11 @@ const workExperiences: WorkExperience[] = [
 		position: "Full Stack Software Developer Co-op",
 		location: "Windsor, ON",
 		duties: [
-			"Developed and optimized web applications using TypeScript and JavaScript with Node.js backends, as well as applications with PHP-based server-side architectures",
-			"Designed and maintained data pipelines supporting 3+ cross-functional teams, by leveraging complex SQL queries and stored procedures for efficient data extraction and transformation",
-			"Implemented high-performance, scalable RESTful APIs that enhanced system performance and decreased response times by 25%",
-			"Automated workflows using Azure and AWS cloud solutions to perform routine tasks, reducing manual effort by almost 80%",
-			"Created Power BI dashboards consolidating cross-team data, enabling actionable insights that increased project throughput by 15%"
+			"Developed and optimized full-stack web applications designing front-ends with TypeScript, JavaScript and Next.js, and building robust back-end services using Node.js alongside PHP server-side architectures",
+			"Designed and maintained data pipelines supporting 3+ cross-functional teams, by leveraging complex SQL queries and stored procedures to ensure efficient ETL",
+			"Implemented high-performance, scalable RESTful APIs to enhance system performance, decreasing average response times by 55%",
+			"Automated routine operational workflows using Power Automate, Azure and AWS cloud services, reducing required manual effort by 80%",
+			"Centralized cross-team data into Power BI and Tableau dashboards, providing actionable insights that increased overall project throughput by 45%"
 		],
 		duration: "Sept 2023 - Aug 2024",
 	},
@@ -43,11 +43,11 @@ const workExperiences: WorkExperience[] = [
 		position: "Software Developer Intern",
 		location: "Mumbai, India",
 		duties: [
-			"Built a scalable service management portal using Next.js and Node.js, enabling employees to schedule and monitor gas deliveries digitally, which increased operational efficiency by 35%",
-			"Applied machine learning techniques to analyze customer data and forecast service demands, enabling the team to implement targeted strategies that improved sales and customer service efficiency by over 30%",
-			"Developed a Flask-based REST API to centralize customer requests and automate service bookings, cutting manual errors by 30%",
-			"Performed exploratory data analysis (EDA) on over 500,000 records from disparate sources, uncovering consumption trends and reducing data preprocessing time by 45% through Python scripts",
-			"Created a data synchronization pipeline that integrated data from SQL Server into a unified dashboard, eliminating inconsistencies and reducing reconciliation time by 50%",
+			"Built a scalable JavaScript, Next.js and Node.js service management portal to digitize gas delivery scheduling and monitoring, increasing operational efficiency by 65%",
+			"Modeled and forecasted service demands using Machine Learning on customer data, which enabled targeted strategies and improved sales and customer service efficiency by over 30%",
+			"Implemented a Flask-based REST API to centralize customer requests and automate service bookings, reducing manual errors by 30%",
+			"Performed exploratory data analysis (EDA) on over 500,000 records from disparate sources, uncovering consumption trends and reducing data preprocessing time by 45% using Python scripts",
+			"Engineered a data synchronization pipeline to integrate SQL Server data into a unified dashboard, eliminating inconsistencies and cutting reconciliation time by 50%",
 			"Implemented interactive dashboards in Tableau and Power BI and documented data workflows to monitor key metrics, reducing data errors by 25% through timely anomaly detection and alerts"
 		],
 		duration: "May 2022 - Aug 2023",
@@ -58,9 +58,8 @@ const workExperiences: WorkExperience[] = [
 		position: "Teaching Assistant",
 		location: "Windsor, ON",
 		duties: [
-			"Planned and facilitated labs for 30+ students for courses in Computer Science and provided personalized feedback",
-			"Liaised with professor regarding development opportunities, challenges and assisting with lectures for students",
-			"Coordinated with grading and assessment of 25+ student work, including assignments, quizzes, and tests"
+			"Facilitated technical labs for 40+ students in Computer Science, clarifying complex concepts and providing personalized code feedback",
+			"Coordinated the grading of 25+ students’ technical work, including complex programming assignments and examinations"
 		],
 		duration: "Jan 2023 - Apr 2025",
 	}
