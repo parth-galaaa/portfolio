@@ -31,8 +31,8 @@ const workExperiences: WorkExperience[] = [
 		duties: [
 			"Developed and optimized full-stack web applications designing front-ends with TypeScript, JavaScript and Next.js, and building robust back-end services using Node.js alongside PHP server-side architectures",
 			"Designed and maintained data pipelines supporting 3+ cross-functional teams, by leveraging complex SQL queries and stored procedures to ensure efficient ETL",
-			"Implemented high-performance, scalable RESTful APIs to enhance system performance, decreasing average response times by 55%",
-			"Automated routine operational workflows using Power Automate, Azure and AWS cloud services, reducing required manual effort by 80%",
+			"Implemented and documented high-performance, scalable RESTful APIs, achieving 99.9% API uptime and supporting 300+ daily internal users", // 🔄 UPDATED
+			"Automated 5+ routine operational workflows using Power Automate, Azure and AWS cloud services, eliminating over 20 hours of manual effort per week", // 🔄 UPDATED
 			"Centralized cross-team data into Power BI and Tableau dashboards, providing actionable insights that increased overall project throughput by 45%"
 		],
 		duration: "Sept 2023 - Aug 2024",
@@ -43,8 +43,8 @@ const workExperiences: WorkExperience[] = [
 		position: "Software Developer Intern",
 		location: "Mumbai, India",
 		duties: [
-			"Built a scalable JavaScript, Next.js and Node.js service management portal to digitize gas delivery scheduling and monitoring, increasing operational efficiency by 65%",
-			"Modeled and forecasted service demands using Machine Learning on customer data, which enabled targeted strategies and improved sales and customer service efficiency by over 30%",
+			"Built a scalable JavaScript, Next.js and Node.js service management portal to digitize gas delivery scheduling and monitoring for 150+ daily gas delivery routes, increasing operational efficiency by 65%", // 🔄 UPDATED
+			"Modeled and forecasted service demands using Machine Learning on customer data, which enabled targeted strategies and improved sales and customer service efficiency by over 30%", // 🔄 MOVED UP / ADDED TO MATCH RESUME
 			"Implemented a Flask-based REST API to centralize customer requests and automate service bookings, reducing manual errors by 30%",
 			"Performed exploratory data analysis (EDA) on over 500,000 records from disparate sources, uncovering consumption trends and reducing data preprocessing time by 45% using Python scripts",
 			"Engineered a data synchronization pipeline to integrate SQL Server data into a unified dashboard, eliminating inconsistencies and cutting reconciliation time by 50%",
