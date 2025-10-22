@@ -29,11 +29,11 @@ const workExperiences: WorkExperience[] = [
 		position: "Full Stack Software Developer Co-op",
 		location: "Windsor, ON",
 		duties: [
-			"Developed and optimized full-stack web applications designing front-ends with TypeScript, JavaScript and Next.js, and building robust back-end services using Node.js alongside PHP server-side architectures",
-			"Designed and maintained data pipelines supporting 3+ cross-functional teams, by leveraging complex SQL queries and stored procedures to ensure efficient ETL",
-			"Implemented and documented high-performance, scalable RESTful APIs, achieving 99.9% API uptime and supporting 300+ daily internal users", // 🔄 UPDATED
-			"Automated 5+ routine operational workflows using Power Automate, Azure and AWS cloud services, eliminating over 20 hours of manual effort per week", // 🔄 UPDATED
-			"Centralized cross-team data into Power BI and Tableau dashboards, providing actionable insights that increased overall project throughput by 45%"
+			"Developed and optimized full-stack web applications by designing front-ends with TypeScript, JavaScript and Next.js, and building back-end services using Node.js alongside PHP server-side architectures",
+			"Designed and monitored data pipelines supporting 3+ teams using SQL Server, leveraging complex SQL queries and stored procedures to ensure efficient ETL and report generation with SSRS",
+			"Deployed and documented high-performance, scalable RESTful APIs, achieving 99.9% system uptime and supporting 300+ daily internal users",
+			"Automated 5+ operational workflows using Power Automate, Azure and AWS cloud services, eliminating over 20 hours of manual effort per week",
+			"Centralized distinct team data into Power BI and Tableau dashboards, providing useful insights that increased overall project throughput by 45%"
 		],
 		duration: "Sept 2023 - Aug 2024",
 	},
@@ -43,11 +43,11 @@ const workExperiences: WorkExperience[] = [
 		position: "Software Developer Intern",
 		location: "Mumbai, India",
 		duties: [
-			"Built a scalable JavaScript, Next.js and Node.js service management portal to digitize gas delivery scheduling and monitoring for 150+ daily gas delivery routes, increasing operational efficiency by 65%", // 🔄 UPDATED
-			"Modeled and forecasted service demands using Machine Learning on customer data, which enabled targeted strategies and improved sales and customer service efficiency by over 30%", // 🔄 MOVED UP / ADDED TO MATCH RESUME
+			"Deployed a scalable JavaScript, Next.js and Node.js service management portal to digitize gas delivery scheduling and tracking for 150+ daily gas delivery routes",
+			"Modeled and forecasted service demands using Machine Learning on customer data, which enabled targeted strategies and improved sales and customer service efficiency by over 30%",
 			"Implemented a Flask-based REST API to centralize customer requests and automate service bookings, reducing manual errors by 30%",
 			"Performed exploratory data analysis (EDA) on over 500,000 records from disparate sources, uncovering consumption trends and reducing data preprocessing time by 45% using Python scripts",
-			"Engineered a data synchronization pipeline to integrate SQL Server data into a unified dashboard, eliminating inconsistencies and cutting reconciliation time by 50%",
+			"Engineered a data synchronization pipeline to integrate PostgreSQL data into a unified dashboard, eliminating inconsistencies and improving data transparency by 50%",
 			"Implemented interactive dashboards in Tableau and Power BI and documented data workflows to monitor key metrics, reducing data errors by 25% through timely anomaly detection and alerts"
 		],
 		duration: "May 2022 - Aug 2023",
@@ -59,7 +59,7 @@ const workExperiences: WorkExperience[] = [
 		location: "Windsor, ON",
 		duties: [
 			"Facilitated technical labs for 40+ students in Computer Science, clarifying complex concepts and providing personalized code feedback",
-			"Coordinated the grading of 25+ students’ technical work, including complex programming assignments and examinations"
+			"Coordinated the grading of 25+ students’ technical work, including challenging programming assignments and examinations"
 		],
 		duration: "Jan 2023 - Apr 2025",
 	}
