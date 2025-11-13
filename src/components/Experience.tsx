@@ -29,11 +29,11 @@ const workExperiences: WorkExperience[] = [
 		position: "Full Stack Software Developer Co-op",
 		location: "Windsor, ON",
 		duties: [
-			"Developed and optimized full-stack web applications by designing front-ends with TypeScript and Next.js, and building secure, scalable backend services using Python, PHP and Node.js",
-			"Designed and monitored large-scale data pipelines supporting 3+ teams using MS SQL, leveraging complex SQL queries and stored procedures optimizing ETL workflows, database performance and report generation with SSRS Report Builder",
-			"Deployed and documented high-performance, fault-tolerant RESTful APIs, achieving 99.9% system uptime and supporting 300+ daily internal users",
-			"Automated backend workflows with CI/CD pipelines, Power Automate, and cloud deployments on AWS and Azure, eliminating over 20 hours of manual effort per week",
-			"Centralized distinct team data into Power BI and Tableau dashboards, providing useful insights that increased overall project throughput by 45%"
+			"Transformed legacy PHP systems into responsive, full-stack applications with TypeScript, Next.js front-ends, and secure, scalable Python, Node.js backend services improving usability for multiple teams and cutting support tickets by over 30%",
+			"Developed and maintained large-scale data pipelines in MS SQL by designing optimized stored procedures and ETL workflows that powered analytics and reporting across 3+ departments",
+			"Deployed and maintained high-performance, fault-tolerant RESTful APIs to connect internal applications used by 300+ employees, enabling smooth data sharing between manufacturing, logistics, and finance systems",
+			"Automated repetitive backend and deployment workflows through CI/CD pipelines, Power Automate scripts, and cloud deployments on AWS and Azure, saving 5+ hours of manual effort per week",
+			"Centralized fragmented operational data into Power BI and Tableau dashboards, providing leadership with centralized, real-time insights into resource utilization, and delivery performance leading to a 45% improvement in project throughput"
 		],
 		duration: "Sept 2023 - Aug 2024",
 	},
@@ -43,12 +43,11 @@ const workExperiences: WorkExperience[] = [
 		position: "Software Developer Intern",
 		location: "Mumbai, India",
 		duties: [
-			"Deployed a scalable JavaScript, React.js and Node.js service management portal to digitize gas delivery scheduling and tracking for 150+ daily gas delivery routes",
-			"Modeled and forecasted service demands using Machine Learning on customer data, which enabled targeted strategies and improved sales and customer service efficiency by over 30%",
+			"Deployed a scalable JavaScript, React.js and Node.js service management portal to digitize gas delivery scheduling and tracking for 150+ daily gas delivery routes, enabling dispatchers to coordinate deliveries and reduce conflicts",
+			"Modeled and forecasted sales demands using Machine Learning on customer data, which enabled targeted strategies and improved sales and customer service efficiency by over 30%",
 			"Implemented a Flask-based Python REST API to centralize customer requests, automate bookings, and ensure data security and reliability, reducing manual errors by 30%",
 			"Performed exploratory data analysis (EDA) on over 500,000 records from disparate sources, uncovering consumption trends and reducing data preprocessing time by 45% using Python scripts",
-			"Engineered a robust data synchronization pipeline integrating large PostgreSQL datasets, improving data integrity and transparency by 50%",
-			"Implemented interactive dashboards in Tableau and Power BI and documented data workflows to monitor key metrics, reducing data errors by 25% through timely anomaly detection and alerts"
+			"Engineered a robust data synchronization pipeline integrating large PostgreSQL datasets from multiple sources, improving data transparency by 50%, and providing operations managers with insights into sales performance",
 		],
 		duration: "May 2022 - Aug 2023",
 	},
