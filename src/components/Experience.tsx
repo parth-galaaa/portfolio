@@ -43,11 +43,11 @@ const workExperiences: WorkExperience[] = [
 		position: "Software Developer Intern",
 		location: "Mumbai, India",
 		duties: [
-			"Deployed a scalable JavaScript, React.js and Node.js service management portal to digitize gas delivery scheduling and tracking for 150+ daily gas delivery routes, enabling dispatchers to coordinate deliveries and reduce conflicts",
-			"Modeled and forecasted sales demands using Machine Learning on customer data, which enabled targeted strategies and improved sales and customer service efficiency by over 30%",
+			"Deployed a JavaScript, React.js and Node.js service management portal to digitize gas delivery scheduling and tracking for 150+ daily gas delivery routes, reducing routing conflicts by 40% and improving dispatcher workflow efficiency",
 			"Implemented a Flask-based Python REST API to centralize customer requests, automate bookings, and ensure data security and reliability, reducing manual errors by 30%",
-			"Performed exploratory data analysis (EDA) on over 500,000 records from disparate sources, uncovering consumption trends and reducing data preprocessing time by 45% using Python scripts",
 			"Engineered a robust data synchronization pipeline integrating large PostgreSQL datasets from multiple sources, improving data transparency by 50%, and providing operations managers with insights into sales performance",
+			"Modelled and forecasted sales demands using Machine Learning on customer data, which enabled targeted strategies and improved sales and customer service efficiency by over 30%",
+			"Performed exploratory data analysis (EDA) on over 500,000 records from disparate sources, uncovering consumption trends and reducing data preprocessing time by 45% using Python scripts"
 		],
 		duration: "May 2022 - Aug 2023",
 	},
@@ -58,7 +58,7 @@ const workExperiences: WorkExperience[] = [
 		location: "Windsor, ON",
 		duties: [
 			"Facilitated technical labs for 40+ students in Computer Science, clarifying complex concepts and providing personalized feedback focusing on programming, backend logic, and software optimization",
-			"CCoordinated the grading of 25+ students’ technical work, including challenging programming assignments and examinations"
+			"Coordinated the grading of 25+ students’ technical work, including challenging programming assignments and examinations"
 		],
 		duration: "Jan 2023 - Apr 2025",
 	}

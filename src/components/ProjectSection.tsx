@@ -11,8 +11,6 @@ interface Project {
 	image: string;
 	gitUrl: string;
 	category: string;
-	technologies: string[];
-	year: string;
 }
 
 // Props for FilterButton
@@ -33,25 +31,21 @@ interface ProjectCardProps {
 const projectsData: Project[] = [
 	{
 		id: 1,
+		title: "Spottigo",
+		description:
+			"Discover local events you’ll love and plan with friends instantly through intelligent recommendations and group scheduling.",
+		image: "/images/spottigo.png",
+		gitUrl: "https://github.com/parth-galaaa/spottigo",
+		category: "In Progress",
+	},
+	{
+		id: 2,
 		title: "Text Analyzer",
 		description:
 			"AI-powered tool to perform summary, paraphrasing, sentiment analysis and translation with advanced natural language processing capabilities.",
 		image: "/images/text.png",
 		gitUrl: "https://github.com/parth-galaaa/text-analyzer",
-		category: "AI/ML",
-		technologies: ["Python (Flask)", "TypeScript", "JavaScript", "NLP", "ML", "DL"],
-		year: "2025",
-	},
-	{
-		id: 2,
-		title: "Sentiment Analysis",
-		description:
-			"Deep learning model for analyzing emotions and sentiments in Amazon product reviews using advanced machine learning techniques.",
-		image: "/images/sentiment.png",
-		gitUrl: "https://github.com/parth-galaaa/Sentiment-Analysis-on-Amazon-Reviews",
-		category: "AI/ML",
-		technologies: ["Python", "Matplotlib", "Pandas", "NumPy", "Scikit-learn"],
-		year: "2025",
+		category: "AI",
 	},
 	{
 		id: 3,
@@ -60,64 +54,70 @@ const projectsData: Project[] = [
 			"Real-time stock market prediction system using machine learning algorithms and financial data analysis.",
 		image: "/images/stockprediction.png",
 		gitUrl: "https://github.com/parth-galaaa/Machine-Learning-Project",
-		category: "AI/ML",
-		technologies: ["Python", "Matplotlib", "Pandas", "NumPy", "Scikit-learn"],
-		year: "2024",
+		category: "AI",
 	},
 	{
 		id: 4,
+		title: "CheckIt",
+		description:
+			"Stay organized, track your todos, and manage your tasks with real-time synchronization across all your devices.",
+		image: "/images/checkit.jpg",
+		gitUrl: "https://github.com/parth-galaaa/checkIt",
+		category: "WEB",
+	},
+	{
+		id: 5,
+		title: "Sentiment Analysis",
+		description:
+			"Deep learning model for analyzing emotions and sentiments in Amazon product reviews using advanced machine learning techniques.",
+		image: "/images/sentiment.png",
+		gitUrl: "https://github.com/parth-galaaa/Sentiment-Analysis-on-Amazon-Reviews",
+		category: "AI",
+	},
+	{
+		id: 6,
 		title: "Portfolio Website",
 		description:
 			"Modern, responsive portfolio website built with Next.js featuring smooth animations and optimal performance.",
 		image: "/images/portfolio.jpg",
 		gitUrl: "https://github.com/parth-galaaa/portfolio",
 		category: "Web",
-		technologies: ["Next.js", "React", "TypeScript", "JavaScript", "Tailwind CSS", "Vercel"],
-		year: "2024",
 	},
 	{
-		id: 5,
+		id: 7,
 		title: "Expense Tracker",
 		description:
 			"Full-stack expense management application with real-time data visualization and budget tracking features.",
 		image: "/images/expenseTracker1.jpg",
 		gitUrl: "https://github.com/parth-galaaa/ExpenseTracker",
 		category: "Web",
-		technologies: ["Java", "Firebase", "Andoid Studio"],
-		year: "2024",
 	},
 	{
-		id: 6,
+		id: 8,
 		title: "E-commerce Website",
 		description:
 			"Complete e-commerce solution with payment integration, inventory management, and modern UI/UX design.",
 		image: "/images/ecommerce.jpg",
 		gitUrl: "https://github.com/parth-galaaa/Ecommerce-Website",
-		category: "Web",
-		technologies: ["PHP", "HTML5", "CSS", "MySQL"],
-		year: "2023",
+		category: "Mobile",
 	},
 	{
-		id: 7,
+		id: 9,
 		title: "Four in a Row",
 		description:
 			"Interactive game implementation with intelligent AI opponent and smooth gameplay mechanics.",
 		image: "/images/fourinarow.webp",
 		gitUrl: "https://github.com/parth-galaaa/four-in-a-row",
 		category: "Game",
-		technologies: ["C"],
-		year: "2022",
 	},
 	{
-		id: 8,
+		id: 10,
 		title: "Calculator App",
 		description:
 			"Clean, modern calculator with advanced mathematical operations and responsive design.",
 		image: "/images/calculator.jpg",
 		gitUrl: "https://github.com/parth-galaaa/simple-calculator",
 		category: "Utility",
-		technologies: ["C"],
-		year: "2021",
 	},
 ];
 
@@ -193,11 +193,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
 						</a>
 					</div>
 
-					{/* Year */}
-					<div className="absolute top-4 left-4 bg-white text-black px-3 py-1 text-xs font-mono tracking-wider">
-						{project.year}
-					</div>
-
 					{/* Category */}
 					<div className="absolute bottom-4 left-4">
 						<span className="bg-white text-black px-3 py-1 text-xs font-medium tracking-wide uppercase">
@@ -215,18 +210,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
 					<p className="text-gray-300 leading-relaxed mb-6 text-sm flex-grow">
 						{project.description}
 					</p>
-
-					{/* Tech */}
-					<div className="h-16 flex flex-wrap gap-2 content-start mt-auto">
-						{project.technologies.map((tech, i) => (
-							<span
-								key={i}
-								className="px-3 py-1 bg-gray-800/30 text-gray-200 text-xs font-medium border border-gray-700/50 hover:border-gray-400 transition-colors h-fit"
-							>
-								{tech}
-							</span>
-						))}
-					</div>
 				</div>
 
 				{/* Hover Line */}
@@ -246,7 +229,7 @@ const ProjectSection: React.FC = () => {
 	const [isLoaded, setIsLoaded] = useState<boolean>(false);
 	const [showFilters, setShowFilters] = useState<boolean>(false);
 
-	const categories: string[] = ["All", "AI/ML", "Web", "Game", "Utility"];
+	const categories: string[] = ["All", "AI", "Web", "Mobile", "Game", "Utility"];
 
 	const getProjectCount = (category: string): number => {
 		if (category === "All") return projectsData.length;
@@ -315,33 +298,6 @@ const ProjectSection: React.FC = () => {
 						</li>
 					))}
 				</ul>
-			</div>
-
-			{/* Stats */}
-			<div
-				className={`mt-24 pt-12 border-t border-gray-600 transition-all duration-1000 delay-700 ${isLoaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-					}`}
-			>
-				<div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-					{[
-						{
-							label: "Projects Completed",
-							value: projectsData.length.toString().padStart(2, "0"),
-						},
-						{ label: "Technologies Used", value: "16+" },
-						{ label: "Years of Experience", value: "03" },
-						{ label: "Categories Covered", value: "04" },
-					].map((stat, index) => (
-						<div key={index} className="text-center">
-							<div className="text-4xl font-bold text-white mb-2 font-mono">
-								{stat.value}
-							</div>
-							<div className="text-sm text-gray-400 uppercase tracking-wide">
-								{stat.label}
-							</div>
-						</div>
-					))}
-				</div>
 			</div>
 		</section>
 	);
