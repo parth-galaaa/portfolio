@@ -109,7 +109,7 @@ const TAB_DATA: TabData[] = [
 		content: (
 			<div className="border border-gray-600/30 rounded-xl p-6 bg-gray-800/20 backdrop-blur-sm">
 				<div className="flex flex-wrap items-center">
-					<div className="w-full md:w-auto md:flex-grow">
+					<div className="w-full md:w-auto md:grow">
 						<h3 className="font-bold text-2xl mb-2 text-white">University of Windsor</h3>
 						<p className="text-lg font-semibold text-gray-200">
 							Bachelor of Computer Science Honours (Co-op)
@@ -192,38 +192,38 @@ const AboutSection: React.FC = () => {
 							<div className="text-gray-300 leading-relaxed space-y-4">
 								<p className="text-lg">
 									Hello! I&apos;m <span className="font-bold text-white relative inline-block">
-										<span className="bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent animate-pulse">Parth Gala</span>
-										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-400 to-green-400 transform scale-x-0 transition-transform duration-700 group-hover:scale-x-100"></span>
+										<span className="bg-linear-to-r from-blue-400 to-green-400 bg-clip-text text-transparent animate-pulse">Parth Gala</span>
+										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-linear-to-r from-blue-400 to-green-400 transform scale-x-0 transition-transform duration-700 group-hover:scale-x-100"></span>
 									</span>, a Full Stack Software Developer and AI enthusiast based in Canada. I recently graduated with an <span className="font-semibold text-white relative group cursor-pointer">
-										<span className="bg-gradient-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">Honours Bachelor of Computer Science (Co-op)</span>
-										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-purple-400 to-blue-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+										<span className="bg-linear-to-r from-purple-400 to-blue-400 bg-clip-text text-transparent">Honours Bachelor of Computer Science (Co-op)</span>
+										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-linear-to-r from-purple-400 to-blue-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 									</span> from the <span className="font-semibold text-white relative group cursor-pointer">
-										<span className="bg-gradient-to-r from-green-400 to-teal-400 bg-clip-text text-transparent">University of Windsor</span>
-										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-green-400 to-teal-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+										<span className="bg-linear-to-r from-green-400 to-teal-400 bg-clip-text text-transparent">University of Windsor</span>
+										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-linear-to-r from-green-400 to-teal-400 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 									</span>, specializing in AI with a minor in Mathematics.
 								</p>
 
 								<p className="text-lg">
 									I&apos;m passionate about building <span className="font-semibold relative group cursor-pointer">
-										<span className="bg-gradient-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent">intelligent, high-performance software</span>
-										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-300 to-cyan-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+										<span className="bg-linear-to-r from-blue-300 to-cyan-300 bg-clip-text text-transparent">intelligent, high-performance software</span>
+										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-linear-to-r from-blue-300 to-cyan-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 									</span> that solves real-world problems. Over the years, I&apos;ve developed scalable web applications, designed efficient data pipelines, and implemented AI-powered solutions that optimize workflows and provide actionable insights. During my co-op and internship experiences, my work helped teams <span className="font-semibold relative group cursor-pointer">
-										<span className="bg-gradient-to-r from-green-300 to-emerald-300 bg-clip-text text-transparent">increase operational efficiency, reduce manual effort, and improve decision-making through data-driven solutions</span>
-										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-green-300 to-emerald-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+										<span className="bg-linear-to-r from-green-300 to-emerald-300 bg-clip-text text-transparent">increase operational efficiency, reduce manual effort, and improve decision-making through data-driven solutions</span>
+										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-linear-to-r from-green-300 to-emerald-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 									</span>.
 								</p>
 
 								<p className="text-lg">
 									Beyond building software, I&apos;m driven by <span className="font-semibold relative group cursor-pointer">
-										<span className="bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">curiosity and impact</span>
-										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-purple-300 to-pink-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+										<span className="bg-linear-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">curiosity and impact</span>
+										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-linear-to-r from-purple-300 to-pink-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 									</span>. I enjoy exploring new technologies, solving challenging problems, and experimenting with creative approaches to engineering solutions. I see software development not just as coding, but as crafting systems that empower people, teams, and organizations to achieve more.
 								</p>
 
 								<p className="text-lg">
 									When I&apos;m not working on projects, you&apos;ll find me <span className="font-semibold relative group cursor-pointer">
-										<span className="bg-gradient-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">analyzing trends in technology, diving into AI research, or pursuing creative personal projects</span>
-										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-cyan-300 to-blue-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
+										<span className="bg-linear-to-r from-cyan-300 to-blue-300 bg-clip-text text-transparent">analyzing trends in technology, diving into AI research, or pursuing creative personal projects</span>
+										<span className="absolute -bottom-1 left-0 w-full h-0.5 bg-linear-to-r from-cyan-300 to-blue-300 transform scale-x-0 transition-transform duration-300 group-hover:scale-x-100"></span>
 									</span>. Every project I take on is an opportunity to learn, innovate, and make a meaningful impact.
 								</p>
 							</div>
@@ -247,7 +247,7 @@ const AboutSection: React.FC = () => {
 						</div>
 
 						{/* Tab Content */}
-						<div className="min-h-[300px]">
+						<div className="min-h-75">
 							{tab === "education" ? (
 								<div className={`transition-all duration-1000 delay-600 ${textAnimate ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
 									}`}>

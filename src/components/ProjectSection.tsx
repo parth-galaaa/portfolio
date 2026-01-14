@@ -202,12 +202,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
 				</div>
 
 				{/* Content */}
-				<div className="p-6 flex-grow flex flex-col">
+				<div className="p-6 grow flex flex-col">
 					<h3 className="text-2xl font-bold text-white mb-3 group-hover:text-gray-200 transition-colors">
 						{project.title}
 					</h3>
 
-					<p className="text-gray-300 leading-relaxed mb-6 text-sm flex-grow">
+					<p className="text-gray-300 leading-relaxed mb-6 text-sm grow">
 						{project.description}
 					</p>
 				</div>

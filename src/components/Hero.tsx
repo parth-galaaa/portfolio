@@ -80,7 +80,7 @@ const HeroSection: React.FC = () => {
 							<motion.span initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.2, duration: 0.8 }}>
 								Step into my digital realm where
 							</motion.span>
-							<motion.span className="bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent font-medium mx-2" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.4, duration: 0.8 }}>
+							<motion.span className="bg-linear-to-r from-blue-400 to-green-400 bg-clip-text text-transparent font-medium mx-2" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.4, duration: 0.8 }}>
 								I create stuff sometimes.
 							</motion.span>
 						</p>
@@ -119,7 +119,7 @@ const HeroSection: React.FC = () => {
 										<ChevronRightIcon className="text-current" />
 									</motion.div>
 								</span>
-								<motion.div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-green-500/10 rounded-2xl" initial={{ x: "-100%" }} whileHover={{ x: "0%" }} transition={{ duration: 0.5 }} />
+								<motion.div className="absolute inset-0 bg-linear-to-r from-blue-500/10 via-purple-500/10 to-green-500/10 rounded-2xl" initial={{ x: "-100%" }} whileHover={{ x: "0%" }} transition={{ duration: 0.5 }} />
 							</motion.button>
 						</Link>
 					</motion.div>

@@ -25,6 +25,20 @@ interface WorkExperience {
 const workExperiences: WorkExperience[] = [
 	{
 		id: 1,
+		companyName: "Silver29 Corp.",
+		position: "Software Developer Intern",
+		location: "Mississauga, ON",
+		duties: [
+			"Built an end-to-end JavaScript, React.js and Node.js order-operations portal to streamline Celltime’s e-commerce operations, supporting processing of over 3,000 daily orders and improving workflow efficiency across teams",
+			"Created a centralized customer-request platform by designing a Flask-based REST API, automating booking workflows and improving request accuracy and reducing manual errors by 45%",
+			"Engineered internal analytics tools using React dashboards and reusable API connectors to help operations teams monitor performance trends without relying on engineering support",
+			"Implemented a sales-demand forecasting system using machine learning models to analyze customer purchasing patterns, enabling targeted campaign planning and reducing surplus inventory costs",
+			"Conducted exploratory data analysis (EDA) on 500K+ multisource records to identify consumption trends and designed Python scripts that cut preprocessing time by 45%, accelerating analytics workflows"
+		],
+		duration: "May 2022 - Aug 2023",
+	},
+	{
+		id: 2,
 		companyName: "Ground Effects Ltd",
 		position: "Full Stack Software Developer Co-op",
 		location: "Windsor, ON",
@@ -36,20 +50,6 @@ const workExperiences: WorkExperience[] = [
 			"Centralized fragmented operational data into Power BI and Tableau dashboards, providing leadership with centralized, real-time insights into resource utilization, and delivery performance leading to a 45% improvement in project throughput"
 		],
 		duration: "Sept 2023 - Aug 2024",
-	},
-	{
-		id: 2,
-		companyName: "Malad Gas Service, BPCL",
-		position: "Software Developer Intern",
-		location: "Mumbai, India",
-		duties: [
-			"Deployed a JavaScript, React.js and Node.js service management portal to digitize gas delivery scheduling and tracking for 150+ daily gas delivery routes, reducing routing conflicts by 40% and improving dispatcher workflow efficiency",
-			"Implemented a Flask-based Python REST API to centralize customer requests, automate bookings, and ensure data security and reliability, reducing manual errors by 30%",
-			"Engineered a robust data synchronization pipeline integrating large PostgreSQL datasets from multiple sources, improving data transparency by 50%, and providing operations managers with insights into sales performance",
-			"Modelled and forecasted sales demands using Machine Learning on customer data, which enabled targeted strategies and improved sales and customer service efficiency by over 30%",
-			"Performed exploratory data analysis (EDA) on over 500,000 records from disparate sources, uncovering consumption trends and reducing data preprocessing time by 45% using Python scripts"
-		],
-		duration: "May 2022 - Aug 2023",
 	},
 	{
 		id: 3,
@@ -172,7 +172,7 @@ const ExperienceSection = () => {
 														<span className="text-gray-400 text-xs">{exp.location}</span>
 													</div>
 												</div>
-												<div className="flex-shrink-0">
+												<div className="skrink-0">
 													<ExpandMoreIcon
 														className={`text-gray-400 hover:text-blue-400 transition-all duration-300 
 														${expandedItems[exp.id] ? 'rotate-180' : 'rotate-0'}`}
@@ -183,11 +183,11 @@ const ExperienceSection = () => {
 
 											{/* Compact collapsible duties for mobile */}
 											<div className={`transition-all duration-500 ease-in-out ${expandedItems[exp.id]
-												? 'max-h-[400px] opacity-100 mt-4'
+												? 'max-h-100 opacity-100 mt-4'
 												: 'max-h-0 opacity-0 mt-0'
 												} overflow-hidden`}>
 												<div className="pt-3 border-t border-gray-600/40">
-													<div className="space-y-2 max-h-[350px] overflow-y-auto pr-2">
+													<div className="space-y-2 max-h-87.5 overflow-y-auto pr-2">
 														{exp.duties.map((duty: string, i: number) => (
 															<div
 																key={i}
@@ -200,7 +200,7 @@ const ExperienceSection = () => {
 																}}
 															>
 																<div className="flex items-start gap-2">
-																	<div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 flex-shrink-0" />
+																	<div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2 skrink-0" />
 																	<Typography
 																		component="p"
 																		className="text-gray-200 text-xs leading-relaxed flex-1"
@@ -307,7 +307,7 @@ const ExperienceSection = () => {
 								</div>
 
 								{/* Collapsible duties with staggered animations - FIXED HEIGHT CONSTRAINT */}
-								<div className={`overflow-hidden transition-all duration-500 ease-in-out ${expandedItems[exp.id] ? 'max-h-[1000px] opacity-100 mt-4' : 'max-h-0 opacity-0'
+								<div className={`overflow-hidden transition-all duration-500 ease-in-out ${expandedItems[exp.id] ? 'max-h-250 opacity-100 mt-4' : 'max-h-0 opacity-0'
 									}`}>
 									<div className="pl-4 border-l-3 border-blue-500">
 										<ul className="list-none space-y-3 p-0">
