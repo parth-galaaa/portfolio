@@ -34,7 +34,7 @@ const workExperiences: WorkExperience[] = [
 			"Developed a self-service operations portal used by non-technical teams to manage orders, customer requests and fulfillment exceptions throughout the order lifecycle",
 			"Engineered a sales-demand forecasting pipeline by performing EDA on 500K+ multi-source customer records and training machine learning models to predict purchasing patterns, enabling targeted campaign planning and reducing overstocking",
 		],
-		duration: "May 2025 - Feb 2026",
+		duration: "Feb 2025 - Feb 2026",
 	},
 	{
 		id: 2,
