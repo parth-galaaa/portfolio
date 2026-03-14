@@ -26,16 +26,15 @@ const workExperiences: WorkExperience[] = [
 	{
 		id: 1,
 		companyName: "Silver29 Corp.",
-		position: "Software Developer Intern",
+		position: "Software Engineer",
 		location: "Mississauga, ON",
 		duties: [
-			"Built an end-to-end JavaScript, React.js and Node.js order-operations portal to streamline Celltime’s e-commerce operations, supporting processing of over 3,000 daily orders and improving workflow efficiency across teams",
-			"Created a centralized customer-request platform by designing a Flask-based REST API, automating booking workflows and improving request accuracy and reducing manual errors by 45%",
-			"Engineered internal analytics tools using React dashboards and reusable API connectors to help operations teams monitor performance trends without relying on engineering support",
-			"Implemented a sales-demand forecasting system using machine learning models to analyze customer purchasing patterns, enabling targeted campaign planning and reducing surplus inventory costs",
-			"Conducted exploratory data analysis (EDA) on 500K+ multisource records to identify consumption trends and designed Python scripts that cut preprocessing time by 45%, accelerating analytics workflows"
+			"Built an e-commerce operations platform using React.js, Express.js and PostgreSQL with secure JWT authentication to support Celltime Inc.’s rotating inventory marketplace model enabling seamless handling of 3,000+ daily transactions",
+			"Implemented event-driven backend services to handle inventory fluctuations during high-traffic launches preventing overselling during peak hours",
+			"Developed a self-service operations portal used by non-technical teams to manage orders, customer requests and fulfillment exceptions throughout the order lifecycle",
+			"Engineered a sales-demand forecasting pipeline by performing EDA on 500K+ multi-source customer records and training machine learning models to predict purchasing patterns, enabling targeted campaign planning and reducing overstocking",
 		],
-		duration: "May 2022 - Aug 2023",
+		duration: "May 2025 - Feb 2026",
 	},
 	{
 		id: 2,
@@ -43,11 +42,11 @@ const workExperiences: WorkExperience[] = [
 		position: "Full Stack Software Developer Co-op",
 		location: "Windsor, ON",
 		duties: [
-			"Transformed legacy PHP systems into responsive, full-stack applications with TypeScript, Next.js front-ends, and secure, scalable Python, Node.js backend services improving usability for multiple teams and cutting support tickets by over 30%",
-			"Developed and maintained large-scale data pipelines in MS SQL by designing optimized stored procedures and ETL workflows that powered analytics and reporting across 3+ departments",
-			"Deployed and maintained high-performance, fault-tolerant RESTful APIs to connect internal applications used by 300+ employees, enabling smooth data sharing between manufacturing, logistics, and finance systems",
-			"Automated repetitive backend and deployment workflows through CI/CD pipelines, Power Automate scripts, and cloud deployments on AWS and Azure, saving 5+ hours of manual effort per week",
-			"Centralized fragmented operational data into Power BI and Tableau dashboards, providing leadership with centralized, real-time insights into resource utilization, and delivery performance leading to a 45% improvement in project throughput"
+			"Modernized legacy PHP systems into scalable full-stack applications using Next.js, TypeScript and Python, Node.js services improving cross-team reliability and reducing support tickets by 30%",
+			"Designed optimized MS SQL stored procedures and ETL pipelines reducing reporting latency by 50% and supporting analytics across 3+ departments",
+			"Deployed high-performance, fault-tolerant RESTful APIs to connect internal applications used by 300+ employees enabling smooth data sharing between manufacturing, logistics and finance systems",
+			"Automated repetitive backend and deployment workflows through CI/CD pipelines, Power Automate scripts and cloud deployments on AWS and Azure saving 5+ hours of manual effort per week",
+			"Consolidated fragmented operational data into Power BI and Tableau dashboards delivering real-time visibility into resource utilization and delivery performance improving project throughput by 45%"
 		],
 		duration: "Sept 2023 - Aug 2024",
 	},
