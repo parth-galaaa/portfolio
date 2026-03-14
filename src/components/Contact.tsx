@@ -1,10 +1,13 @@
 "use client";
 import React from "react";
-import GithubIcon from "../../public/images/github-icon.svg";
-import LinkedinIcon from "../../public/images/linkedin-icon.svg";
 import Link from "next/link";
 import Image from "next/image";
 import EmailIcon from '@mui/icons-material/Email';
+
+interface Icon {
+  src: string;
+  alt: string;
+}
 
 const EmailSection: React.FC = () => {
   return (
@@ -26,10 +29,10 @@ const EmailSection: React.FC = () => {
       {/* Right Column: Icons */}
       <div className="flex justify-start md:justify-end items-center gap-4">
         <Link href="https://www.github.com/parth-galaaa">
-          <Image src={GithubIcon} alt="Github Icon" className="w-10 h-10" />
+          <Image src="/images/github-icon.svg" alt="Github Icon" width={40} height={40} />
         </Link>
         <Link href="https://www.linkedin.com/in/gala-parth">
-          <Image src={LinkedinIcon} alt="Linkedin Icon" className="w-10 h-10" />
+          <Image src="/images/linkedin-icon.svg" alt="Linkedin Icon" width={40} height={40} />
         </Link>
         <Link href="mailto:parthgautamgala@gmail.com">
           <EmailIcon style={{ color: '#ffffff', width: '40px', height: '40px' }} />
