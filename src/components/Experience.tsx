@@ -1,5 +1,4 @@
 "use client";
-import * as React from 'react';
 import { useState } from 'react';
 import Timeline from '@mui/lab/Timeline';
 import TimelineItem, { timelineItemClasses } from '@mui/lab/TimelineItem';
@@ -29,10 +28,10 @@ const workExperiences: WorkExperience[] = [
 		position: "Software Engineer",
 		location: "Mississauga, ON",
 		duties: [
-			"Built an e-commerce operations platform using React.js, Express.js and PostgreSQL with secure JWT authentication to support Celltime Inc.’s rotating inventory marketplace model enabling seamless handling of 3,000+ daily transactions",
-			"Implemented event-driven backend services to handle inventory fluctuations during high-traffic launches preventing overselling during peak hours",
-			"Developed a self-service operations portal used by non-technical teams to manage orders, customer requests and fulfillment exceptions throughout the order lifecycle",
-			"Engineered a sales-demand forecasting pipeline by performing EDA on 500K+ multi-source customer records and training machine learning models to predict purchasing patterns, enabling targeted campaign planning and reducing overstocking",
+			"Developed and deployed a full-stack e-commerce operations platform serving 3,000+ daily transactions with JWT-based auth, role-based access control and optimistic concurrency to prevent double-sells during flash inventory drops",
+			"Implemented event-driven inventory sync using message queues to handle bursty traffic during product launches eliminating overselling incidents that previously affected 5% of peak-hour orders",
+			"Built a self-service internal tool used by non-engineering teams to manage the full order lifecycle reducing escalations to engineering team by cutting ad-hoc data requests",
+			"Engineered a sales-demand forecasting pipeline by performing EDA on 500K+ multi-source customer records and training machine learning models to predict purchasing patterns enabling targeted campaign planning and reducing overstocking",
 		],
 		duration: "Feb 2025 - Feb 2026",
 	},
@@ -43,10 +42,10 @@ const workExperiences: WorkExperience[] = [
 		location: "Windsor, ON",
 		duties: [
 			"Modernized legacy PHP systems into scalable full-stack applications using Next.js, TypeScript and Python, Node.js services improving cross-team reliability and reducing support tickets by 30%",
-			"Designed optimized MS SQL stored procedures and ETL pipelines reducing reporting latency by 50% and supporting analytics across 3+ departments",
-			"Deployed high-performance, fault-tolerant RESTful APIs to connect internal applications used by 300+ employees enabling smooth data sharing between manufacturing, logistics and finance systems",
-			"Automated repetitive backend and deployment workflows through CI/CD pipelines, Power Automate scripts and cloud deployments on AWS and Azure saving 5+ hours of manual effort per week",
-			"Consolidated fragmented operational data into Power BI and Tableau dashboards delivering real-time visibility into resource utilization and delivery performance improving project throughput by 45%"
+			"Designed and optimized MS SQL stored procedures and ETL pipelines to create a shared data infrastructure for manufacturing, logistics and finance departments cutting data retrieval latency by 50%",
+			"Built high-performance, fault-tolerant REST APIs connecting 5 internal systems used by 300+ employees with 98.5% measured uptime over 6 months",
+			"Automated repetitive backend and deployment workflows through CI/CD pipelines, Power Automate scripts saving 5+ hours of manual effort per week",
+			"Consolidated fragmented operational data into Power BI and Tableau dashboards with real-time refresh, improving visibility into resource utilization and delivery performance-contributing to a 45% increase in project throughput"
 		],
 		duration: "Sept 2023 - Aug 2024",
 	},
