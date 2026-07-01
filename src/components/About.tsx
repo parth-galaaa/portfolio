@@ -152,19 +152,16 @@ const AboutSection: React.FC = () => {
 								}`}
 						>
 							<p className="text-lg">
-								Hello! I&apos;m <span className="font-bold text-white">Parth Gala</span>,
-								a Full Stack Software Developer and AI enthusiast based in Canada.
+								Hi, I'm Parth. I'm someone who likes figuring things out.
 							</p>
 
 							<p className="text-lg">
-								I recently graduated with an Honours Bachelor of Computer Science
-								(Co-op) from the University of Windsor specializing in AI with a
-								minor in Mathematics.
+								That curiosity has led me down all kinds of rabbit holes—from backend systems and AI to random weekend projects that started with a simple "what if?"
+								I enjoy building software that's thoughtful, reliable, and actually useful. Most of what I learn comes from experimenting, breaking things, and building them again.
 							</p>
 
 							<p className="text-lg">
-								I enjoy building intelligent software, scalable web apps, and
-								AI-driven systems that solve real-world problems.
+								This website is where I share the projects I've worked on, the ideas I'm exploring, and the occasional lesson learned along the way. Thanks for stopping by.
 							</p>
 						</div>
 					</div>

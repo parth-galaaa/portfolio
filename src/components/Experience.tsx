@@ -24,33 +24,42 @@ interface WorkExperience {
 const workExperiences: WorkExperience[] = [
 	{
 		id: 1,
+		companyName: "The Citco Group Ltd.",
+		position: "Full Stack Software Developer",
+		location: "Toronto, ON",
+		duties: [
+		],
+		duration: "June 2026 - Present",
+	},
+	{
+		id: 2,
 		companyName: "Silver29 Corp.",
 		position: "Software Engineer",
 		location: "Mississauga, ON",
 		duties: [
 			"Developed and deployed a full-stack e-commerce operations platform serving 3,000+ daily transactions with JWT-based auth, role-based access control and optimistic concurrency to prevent double-sells during flash inventory drops",
-			"Implemented event-driven inventory sync using message queues to handle bursty traffic during product launches eliminating overselling incidents that previously affected 5% of peak-hour orders",
-			"Built a self-service internal tool used by non-engineering teams to manage the full order lifecycle reducing escalations to engineering team by cutting ad-hoc data requests",
-			"Engineered a sales-demand forecasting pipeline by performing EDA on 500K+ multi-source customer records and training machine learning models to predict purchasing patterns enabling targeted campaign planning and reducing overstocking",
+			"Identified and resolved a recurring overselling bug affecting 5% of peak-hour orders by implementing event-driven inventory sync with RabbitMQ message queues",
+			"Built a self-service internal tool for non-engineering teams to manage the full order lifecycle significantly reducing ad-hoc escalations to the engineering team",
+			"Engineered a sales-demand forecasting pipeline by performing EDA on 100K+ multi-source customer records and training time-series models to predict purchasing patterns enabling targeted campaign planning",
 		],
-		duration: "Feb 2025 - Feb 2026",
+		duration: "Apr 2025 - Mar 2026",
 	},
 	{
-		id: 2,
+		id: 3,
 		companyName: "Ground Effects Ltd",
 		position: "Full Stack Software Developer Co-op",
 		location: "Windsor, ON",
 		duties: [
 			"Modernized legacy PHP systems into scalable full-stack applications using Next.js, TypeScript and Python, Node.js services improving cross-team reliability and reducing support tickets by 30%",
-			"Designed and optimized MS SQL stored procedures and ETL pipelines to create a shared data infrastructure for manufacturing, logistics and finance departments cutting data retrieval latency by 50%",
-			"Built high-performance, fault-tolerant REST APIs connecting 5 internal systems used by 300+ employees with 98.5% measured uptime over 6 months",
-			"Automated repetitive backend and deployment workflows through CI/CD pipelines, Power Automate scripts saving 5+ hours of manual effort per week",
-			"Consolidated fragmented operational data into Power BI and Tableau dashboards with real-time refresh, improving visibility into resource utilization and delivery performance-contributing to a 45% increase in project throughput"
+			"Designed and optimized MS SQL stored procedures and ETL pipelines that created a shared data layer across manufacturing, logistics and finance departments cutting data retrieval time by 50%",
+			"Built and maintained high-performance REST APIs connecting 5 internal systems used by 300+ employees with 98.5% measured uptime over 6 months use",
+			"Automated backend and deployment workflows through CI/CD pipelines and Power Automate scripts saving 5+ hours of manual effort per week",
+			"Consolidated fragmented operational data into Power BI and Tableau dashboards with real-time refresh, improving visibility into resource utilization and delivery performance"
 		],
 		duration: "Sept 2023 - Aug 2024",
 	},
 	{
-		id: 3,
+		id: 4,
 		companyName: "University of Windsor",
 		position: "Teaching Assistant",
 		location: "Windsor, ON",
@@ -58,7 +67,7 @@ const workExperiences: WorkExperience[] = [
 			"Facilitated technical labs for 40+ students in Computer Science, clarifying complex concepts and providing personalized feedback focusing on programming, backend logic, and software optimization",
 			"Coordinated the grading of 25+ students’ technical work, including challenging programming assignments and examinations"
 		],
-		duration: "Jan 2023 - Apr 2025",
+		duration: "Jan 2023 - Apr 2026",
 	}
 ];
 
