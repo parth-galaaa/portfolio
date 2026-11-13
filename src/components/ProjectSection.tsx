@@ -58,15 +58,6 @@ const projectsData: Project[] = [
 	},
 	{
 		id: 4,
-		title: "CheckIt",
-		description:
-			"Stay organized, track your todos, and manage your tasks with real-time synchronization across all your devices.",
-		image: "/images/checkit.jpg",
-		gitUrl: "https://github.com/parth-galaaa/checkIt",
-		category: "WEB",
-	},
-	{
-		id: 5,
 		title: "Sentiment Analysis",
 		description:
 			"Deep learning model for analyzing emotions and sentiments in Amazon product reviews using advanced machine learning techniques.",
@@ -75,7 +66,7 @@ const projectsData: Project[] = [
 		category: "AI",
 	},
 	{
-		id: 6,
+		id: 5,
 		title: "Portfolio Website",
 		description:
 			"Modern, responsive portfolio website built with Next.js featuring smooth animations and optimal performance.",
@@ -84,7 +75,7 @@ const projectsData: Project[] = [
 		category: "Web",
 	},
 	{
-		id: 7,
+		id: 6,
 		title: "Expense Tracker",
 		description:
 			"Full-stack expense management application with real-time data visualization and budget tracking features.",
@@ -93,13 +84,22 @@ const projectsData: Project[] = [
 		category: "Web",
 	},
 	{
-		id: 8,
+		id: 7,
 		title: "E-commerce Website",
 		description:
 			"Complete e-commerce solution with payment integration, inventory management, and modern UI/UX design.",
 		image: "/images/ecommerce.jpg",
 		gitUrl: "https://github.com/parth-galaaa/Ecommerce-Website",
 		category: "Mobile",
+	},
+		{
+		id: 8,
+		title: "CheckIt",
+		description:
+			"Stay organized, track your todos, and manage your tasks with real-time synchronization across all your devices.",
+		image: "/images/checkit.jpg",
+		gitUrl: "https://github.com/parth-galaaa/checkIt",
+		category: "WEB",
 	},
 	{
 		id: 9,
@@ -109,15 +109,6 @@ const projectsData: Project[] = [
 		image: "/images/fourinarow.webp",
 		gitUrl: "https://github.com/parth-galaaa/four-in-a-row",
 		category: "Game",
-	},
-	{
-		id: 10,
-		title: "Calculator App",
-		description:
-			"Clean, modern calculator with advanced mathematical operations and responsive design.",
-		image: "/images/calculator.jpg",
-		gitUrl: "https://github.com/parth-galaaa/simple-calculator",
-		category: "Utility",
 	},
 ];
 
