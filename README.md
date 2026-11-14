@@ -1,17 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
 
-## Getting Started
+Personal portfolio website of Parth Gala, built with Next.js (App Router), React, TypeScript and Tailwind CSS.
 
-First, run the development server:
+## Getting started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev     # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Scripts
+
+| Command         | Purpose                  |
+| --------------- | ------------------------ |
+| `npm run dev`   | Start the dev server     |
+| `npm run build` | Create a production build |
+| `npm run start` | Serve the production build |
+| `npm run lint`  | Run ESLint               |
+
+## Project structure
+
+```
+src/
+  app/              Routes, root layout, global styles
+  components/       Page sections (Hero, About, Experience, ...)
+    ui/             Reusable UI primitives (shadcn-style)
+  lib/              Utilities
+public/
+  images/
+    tech/           Technology logos
+    projects/       Project screenshots
+    ui/             Icons and avatar
+  docs/             Downloadable files (resume)
+```

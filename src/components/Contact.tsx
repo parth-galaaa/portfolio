@@ -2,12 +2,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import EmailIcon from '@mui/icons-material/Email';
+import EmailIcon from "@mui/icons-material/Email";
 
-interface Icon {
-  src: string;
-  alt: string;
-}
 
 const EmailSection: React.FC = () => {
   return (
@@ -21,21 +17,34 @@ const EmailSection: React.FC = () => {
           Let&apos;s Connect
         </h2>
         <p className="text-[#ADB7BE] mb-4 ">
-          I&apos;m currently looking for new opportunities, my inbox is always open.
-          Whether you have a question or just want to say hi, just connect with me!
+          I&apos;m currently looking for new opportunities, my inbox is always
+          open. Whether you have a question or just want to say hi, just connect
+          with me!
         </p>
       </div>
 
       {/* Right Column: Icons */}
       <div className="flex justify-start md:justify-end items-center gap-4">
         <Link href="https://www.github.com/parth-galaaa">
-          <Image src="/images/github-icon.svg" alt="Github Icon" width={40} height={40} />
+          <Image
+            src="/images/ui/github-icon.svg"
+            alt="Github Icon"
+            width={40}
+            height={40}
+          />
         </Link>
         <Link href="https://www.linkedin.com/in/gala-parth">
-          <Image src="/images/linkedin-icon.svg" alt="Linkedin Icon" width={40} height={40} />
+          <Image
+            src="/images/ui/linkedin-icon.svg"
+            alt="Linkedin Icon"
+            width={40}
+            height={40}
+          />
         </Link>
         <Link href="mailto:parthgautamgala@gmail.com">
-          <EmailIcon style={{ color: '#ffffff', width: '40px', height: '40px' }} />
+          <EmailIcon
+            style={{ color: "#ffffff", width: "40px", height: "40px" }}
+          />
         </Link>
       </div>
     </section>
