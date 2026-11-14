@@ -63,7 +63,7 @@ const HeroSection: React.FC = () => {
 
 							<motion.div className="block mt-4 relative" initial={{ opacity: 0, rotateX: 90 }} animate={{ opacity: 1, rotateX: 0 }} transition={{ duration: 0.8, delay: 0.7 }}>
 								<TypeAnimation
-									sequence={["Parth Gala", 2500, "Software Developer", 2500, "Web Developer", 2500, "AI Developer", 2500, "Mobile Developer", 2500]}
+									sequence={["Parth Gala", 2500, "Developer", 2500]}
 									wrapper="span"
 									speed={60}
 									repeat={Infinity}
